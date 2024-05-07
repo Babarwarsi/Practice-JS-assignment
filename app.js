@@ -13,7 +13,7 @@
 
 // 3. Declare and initialize a strings array
 
-// let studenName = ['ubaid'];
+// let studenName = ['babar'];
 
 // 4. Declare and initialize a numbers array.
 
@@ -73,7 +73,7 @@
 // percentages of students like:
 
 // let totalScore = 500;
-// let studenName = ['ubaid', 'saad', 'arham'];
+// let studenName = ['babar', 'asad', 'akram'];
 // let obtainScore = [480, 320, 280];
 // let percentages = [96, 46, 78]
 
