@@ -1,158 +1,101 @@
+// ==== Chapter 01 ====
 
-// Array Files
 
-// 1. Declare an empty array using JS literal notation to store
-// student names in future.
+// ==== Chapter 01 Q 1 ====
+// alert('Error! Please enter a valid password.')
 
-// let futureStudents = new Array();
+// ==== Chapter 01 Q 2 ====
+// alert('Wellcome to JS land\nHappy Coding.')
 
-// 2. Declare an empty array using JS object notation to store
-// student names in future.
+// ==== Chapter 01 Q 3 ====
+// alert('Welcome to js Land...')
 
-// let futureStudent = [];
+// ==== Chapter 01 Q 4 ====
+// var message = 'Hello... I can run JS through my werb browers console.';
+// alert(message)
 
-// 3. Declare and initialize a strings array
 
-// let studenName = ['ubaid'];
+// ==== Chapter 02 ====
 
-// 4. Declare and initialize a numbers array.
 
-// let favNumber = [10, 9, 8, 7, 6,];
-// console.log(favNumber);
+// ==== Chapter 02 Q 1 2 3 4  ====
+// var userName = 'babar'
+// var age = '16 years old';
+// var info = 'Certified Web and app development';
 
-// 5. Declare and initialize a boolean array.
+// alert(userName);
+// alert(age);
+// alert(info);
 
-// let boolean = [true, false]
-// console.log(boolean);
+// ==== Chapter 02 Q 5  ====
+// var food = 'PIZZA\nPIZZ\nPIZ\nPI\nP'
+// alert(food)
 
-// 6. Declare and initialize a mixed array.
+// ==== Chapter 02 Q 6  ====
+// var email = 'My email address is haseeb@gmail.com'
+// alert(email)
 
-// let mixedArray = ['string', 9 , true, false];
+// ==== Chapter 02 Q 7  ====
+// var book = 'I am trying to leran from the book A smarter\nway to learn javascript'
+// alert(book)
 
-// 7. Declare and Initialize an array and store available mobile
-// networks in Pakistan.
+// ==== Chapter 02 Q 8  ====
+// var htmlContent = 'Hye! I can write Html content Throught JavaScipt'
+// alert(htmlContent)
 
-// let AvailableNetwork = ["Zong", "Ufone", "Jazz", "Telenor"];
-// console.log(AvailableNetwork);
+// ==== Chapter 02 Q 9  ====
 
-// 8. Declare and Initialize an array and store available education
-// qualifications in Pakistan (e.g. SSC, HSC, BCS, BS, BCOM, MS,
-// M. Phil., PhD). Show the listed qualifications in your browser
-// like:
+// var jsBoder = '“▬▬▬▬▬▬▬▬▬ஜ۩۞۩ஜ▬▬▬▬▬▬▬▬▬”'
+// alert(jsBoder)
 
-// let qualifications = ['EG', 'SSC', 'HSC', 'BSC', 'BS', 'BCOM',] 
-// let ul = document.querySelector('ul')
 
-// for(let i = 1; i <= qualifications.length; i++){
-//     ul.innerHTML += `<li>${qualifications[i]}</li>`
-// }
+// ==== Chapter 03 ====
 
-// 9. Declare and initialize an empty array to store top movies of
-// 2015. Add movies one by one in an array. Display the elements
-// & length of array in your browser. (Use array’s length method)
 
-//  let array = ["Avengers' age of Ultern", "Spectr", "Inside Out", "Jurrasic World"]
-//  console.log(array);
-//  console.log(array.length);
+// ==== Chapter 03  Q 1 ====
+// var age = 16;
+// alert("i am " + age + " years old");
 
-// 10. Declare and Initialize an array with your favorite cars. Show
-// a. First index of the array
-// b. Car at first index of the array
-// c. Last index of the array
+// ==== Chapter 03  Q 2 ====
+// var hisHer = 2;
+// alert("you have visted this site " + hisHer + " times");
 
-// let favorite_cars = ["Tesla Model S", "Porsche 911", "Lamborghini Aventador", "BMW M5"]
+// ==== Chapter 03  Q 3 ====
+// var birthYear = 2007;
+// alert("My birth year " + birthYear);
 
-// console.log(`First index of the array: ${favorite_cars.indexOf('Tesla Model S')}`);
-// console.log(`Car at first index of the array: ${favorite_cars[0]}`);
-// console.log(`Last index of the array ${favorite_cars.indexOf("BMW M5")}`);
-// console.log(`Last index of the array: ${favorite_cars[3]}`)
+// ==== Chapter 03  Q 4 ====
+// var visitorsName = "babar";
+// var productTilte = "on XYZ Clothing store"
+// var quantity = " ordered 5 T-shirt(s)"
 
-// 11. Write a program to store 3 student names in an array. Take
-// another array to store score of these three students. Assume
-// that total marks are 500 for each student, display the scores &
-// percentages of students like:
+// alert(visitorsName + '' + quantity + '' + productTilte);
 
-// let totalScore = 500;
-// let studenName = ['babar', 'asad', 'akram'];
-// let obtainScore = [480, 320, 280];
-// let percentages = [96, 46, 78]
+// ==== Chapter 04  Q 1 ====
 
-// console.log(`Score of ${studenName[0]} is ${obtainScore[0]} Percentage ${percentages[0]} %`);
-// console.log(`Score of ${studenName[1]} is ${obtainScore[1]} Percentage ${percentages[1]} %`);
-// console.log(`Score of ${studenName[2]} is ${obtainScore[2]} Percentage ${percentages[2]} %`);
+//1.Declare 3 variables in one statement.
 
-// 13. Write a program to store student scores in an array & sort
-// the array in ascending order using Array’s sort method. 
+// a, b, c, = 10
 
-// let studentScore = ["320", "230", "480", "120"];
-// console.log(studentScore.sort());
+// 2.Declare 5 legal & 5 illegal variable names
 
-// 14. Write a program to sort the below mentioned array:
-// var fruits = [“strawberry”, “apple”, “orange”, “banana”];
+// === legal Name ===
 
-// let fruits = ["stawbery", "Apple", "Orange", "Banana"];
+// var userName = "babar";
+// var my_alue = 50;
+// var myNumber = 8;
+// var $myCast = "asad";
+// var data1 = 100;
 
-// console.log(`Fruits list ${fruits}`);
-// console.log(`Order list ${fruits.sort()}`);
+// === illegal Name ===
 
-// 15. Write a program to initialize an array with city names. Copy
-// 3 array elements from cities array to selectedCities array. 
+// var 123 = '';
+// var @userName = "";
+// var username = "";
 
-// let cities = ['Karcahi', 'Lahore', 'Islamabad', 'peshawer', 'Quota']
+// 3.Display this in your browser
 
-// console.log(`Cities list ${cities}`);
-// console.log(`Selected Cities ${cities[1]},${cities[4]}`);
-
-// 16. Write a program to create a single string from the below
-// mentioned array:
-// var arr = [“This ”, “ is ”, “ my ”, “ cat”];
-// (Use array’s join method)
-
-// let paragraf = ['this', 'is', 'my', 'cat']
-// let text = paragraf.join(' ');
-
-// console.log(`Array: ${paragraf}`);
-// console.log(`String: ${text}`);
-
-// 17. Create a new array. Store values one by one in such a way
-// that you can access the values in the order in which they were
-// stored. (FIFO-First In First Out)
-
-// let compPart = ["Keyboard", "Mouse", "Printer", "Monitor"];
-
-// console.log(`Out:
-// ${compPart[0]}`);
-// console.log(`Out:
-// ${compPart[1]}`);
-// console.log(`Out:
-// ${compPart[2]}`);
-// console.log(`Out:
-// ${compPart[3]}`);
-
-// 18. Create a new array. Store values one by one in such a way
-// that you can access the values in reverse order. (Last In-First
-// Out)
-
-// let Devices = ["Keyboard", "Mouse", "Printer", "Monitor"];
-
-// console.log(Devices.reverse());
-// console.log(`Out: ${Devices[0]}`);
-// console.log(`Out: ${Devices[1]}`);
-// console.log(`Out: ${Devices[2]}`);
-// console.log(`Out: ${Devices[3]}`);
-
-// 20. Declare and initialize an empty multidimensional array.
-// (Array of arrays)
-
-// let matrix = [[],[]]
-// console.log(matrix);
-
-// 21. Declare and initialize a multidimensional array representing
-// the following matrix:
-
-// let matrix = [
-//     [2, 8, 9]
-//     [3, 6, 9]
-// ];
-
-// console.log(matrix);
+// document.write("Variable names can only contain,number, $ and, _. for Example : $my_firstName")
+// Document.write("Variables must begin with a $ or _,  or. For example $name, _name or name")
+// document.write("Variable names are case Sensitive")
+// document.write("Variable names should not be JS keywords")
